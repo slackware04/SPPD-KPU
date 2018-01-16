@@ -1,0 +1,143 @@
+body
+{
+	background:url('../img/background.jpg') no-repeat;
+	font-family:arial;
+	height: 100%;
+	
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.center
+{
+	text-align:center;
+}
+
+
+/***************
+LOGIN STYLE
+***************/
+.login-box
+{
+	margin-top:80px;
+	
+}
+
+.login-box-title-top
+{
+	background-color: #eee !important;
+	text-align:center;
+	
+}
+
+.error-login
+{
+	color:red;
+}
+
+/******************
+MENU BAR
+******************/
+.menu-bar
+{
+	
+	padding-left:0px !important;
+	padding-right:0px !important;
+	
+}
+
+.vertical-menu {
+    height: 500px; /* Set a width if you like */
+	background-color: #eee;
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+	
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+	text-decoration: none;
+}
+
+.vertical-menu a.active {
+    background-color: #222; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.dropdown.open .caret{
+    border-top: none;
+    border-bottom: 4px solid #000000;
+}
+
+/***************
+CONTENT
+***************/
+.header
+{
+	background-color:#333;
+	color:white;
+	padding-top:10px;
+}
+
+.footer
+{
+	background-color:#333;
+	color:white;
+	padding-top:5px;
+}
+
+.glyph-menu
+{
+	margin-right:15px;
+}
+
+.glyph-submenu
+{
+	padding-left:30px;
+	margin-right:15px;
+}
+
+.content
+{
+	background-color:#fff;
+	opacity:0.95;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	height:500px;
+	color:black;
+}
+
+.content-header
+{
+	background-color:#ddd;
+	font-size:24pt;
+	padding:10px;
+	padding-left:20px;
+	//border-radius:15px 0px 0px 0px;
+}
+
+.money-content
+{
+	font-size: 28pt;
+	color: green;
+}
+
+.input-group-addon
+{
+	min-width: 150px;
+	text-align:left;
+}
